@@ -125,6 +125,10 @@ An interactive Streamlit application was developed to demonstrate the customer a
 - Generate ALS product recommendations
 - Compare average CLV proxy across customer segments
 
+![ALS Product Recommendations](screenshots/als_recommendations.png)
+
+![CLV Proxy by Segment](screenshots/clv_segment_analysis.png)
+
 The Streamlit application demonstrates the ALS collaborative-filtering model. The hybrid ALS + association-rule workflow is explored separately in the analytical notebook.
 
 ---
