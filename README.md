@@ -2,7 +2,8 @@
 
 A customer analytics and recommendation project built using Python and the Instacart Online Grocery Basket dataset, combining **RFM segmentation, customer value estimation, K-Means clustering, ALS collaborative filtering, association rule mining, recommendation evaluation, and an interactive Streamlit dashboard**.
 
-**Project completed:** December 2025
+**Project completed:** December 2025  
+<br>
 **Portfolio repository published:** August 2026
 
 ---
