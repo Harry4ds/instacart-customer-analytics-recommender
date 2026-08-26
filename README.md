@@ -228,3 +228,9 @@ Potential extensions include:
 - Improving hybrid recommendation ranking
 - Incorporating actual product prices for financial CLV modeling
 - Deploying the Streamlit application publicly
+
+- ---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
