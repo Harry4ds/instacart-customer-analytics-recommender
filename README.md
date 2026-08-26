@@ -184,9 +184,13 @@ The Streamlit application can be launched using:
 python -m streamlit run app/app.py
 ```
 
-The ALS model artifact used by the Streamlit application is excluded from version control because of its size.
+### Generate the ALS Model Artifact
 
----
+After running the analytical notebook and generating the sampled transaction data, build the model artifact required by the Streamlit application:
+
+```bash
+python scripts/build_als_artifacts.py
+
 
 ## Limitations
 
