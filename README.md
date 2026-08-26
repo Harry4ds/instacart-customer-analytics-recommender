@@ -158,9 +158,17 @@ instacart-customer-analytics-recommender/
 │   ├── rfm_user_details.csv
 │   └── clv_segment_summary.csv
 │
+├── scripts/
+│   └── build_als_artifacts.py
+│
+├── screenshots/
+│   ├── als_recommendations.png
+│   └── clv_segment_analysis.png
+│
 └── data/
     └── README.md
 ```
+
 
 Raw data, generated datasets, and large model artifacts are excluded from version control.
 
@@ -186,10 +194,17 @@ python -m streamlit run app/app.py
 
 ### Generate the ALS Model Artifact
 
-After running the analytical notebook and generating the sampled transaction data, build the model artifact required by the Streamlit application:
+After downloading the required raw Instacart files as described in `data/README.md`, run:
 
 ```bash
 python scripts/build_als_artifacts.py
+```
+
+The script creates a reproducible 200,000-order sample, builds the user-item interaction matrix, trains the ALS model, and generates:
+
+`app/als_artifacts.pkl`
+
+The generated model artifact is excluded from Git because of its size.
 
 
 ## Limitations
